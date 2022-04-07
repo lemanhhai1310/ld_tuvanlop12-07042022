@@ -1,6 +1,14 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php $body = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
+<!--LÀ SINH VIÊN ĐẠI HỌC FPT,BẠN ĐƯỢC GÌ?-->
+<div class="uk-section home__section4">
+    <div class="uk-container">
+
+    </div>
+</div>
+<!--/LÀ SINH VIÊN ĐẠI HỌC FPT,BẠN ĐƯỢC GÌ?-->
+
 <!--HỌC ĐẠI HỌC FPT – SẴN SÀNG CHO SỰ NGHIỆP TOÀN CẦU-->
 <div class="home__section5 uk-background-default uk-section">
     <div class="uk-container">
@@ -60,7 +68,8 @@
     </div>
 </div>
 <!--/HỌC ĐẠI HỌC FPT – SẴN SÀNG CHO SỰ NGHIỆP TOÀN CẦU-->
-<!---->
+
+<!--Xét tuyển học bạ lớp 11-->
 <div class="home__section6">
     <div class="uk-container">
         <div class="uk-grid-match uk-flex-middle" uk-grid>
@@ -127,7 +136,8 @@
         </div>
     </div>
 </div>
-<!--/-->
+<!--/Xét tuyển học bạ lớp 11-->
+
 <?php $ratio = 0.9; ?>
 <div class="footer uk-section-xsmall">
     <div class="uk-container uk-container-small">
