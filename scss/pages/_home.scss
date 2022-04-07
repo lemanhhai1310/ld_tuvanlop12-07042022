@@ -20,6 +20,10 @@
         text-transform: uppercase;
       }
       &__body{
+        padding: 15px;
+        @include media-breakpoint-up('m'){
+          padding: 20px;
+        }
         &__list{
           margin: 0;
           >li{
