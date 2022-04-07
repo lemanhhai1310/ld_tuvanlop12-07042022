@@ -1,10 +1,239 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
+    <script src="/__prepros.js"></script>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>BASE - Trang chủ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <!--CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.13.7/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="style.css?v=1649330294">
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js/dist/defer_plus.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.7/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.7/dist/js/uikit-icons.min.js"></script>
+    <script src="js/app.js?v=1649330294"></script>
 </head>
-<body>
+<body class="">
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+     attribution=setup_tool
+     page_id="2428809380682169"
+     logged_in_greeting="Bạn cần cắt HTML/CSS? Hãy chat ngay với chúng tôi"
+     logged_out_greeting="Bạn cần cắt HTML/CSS? Hãy chat ngay với chúng tôi">
+</div>
+<script>
+    defer(function() {
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml            : true,
+                version          : 'v5.0'
+            });
+        };
 
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    }, 5000);
+</script><!--app-->
+<div id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative"><!--HỌC ĐẠI HỌC FPT – SẴN SÀNG CHO SỰ NGHIỆP TOÀN CẦU-->
+    <div class="home__section5 uk-background-default uk-section">
+        <div class="uk-container">
+            <div class="item__40">
+                <h2 class="home__title1 uk-h2 uk-text-center uk-text-uppercase">HỌC ĐẠI HỌC FPT – SẴN SÀNG CHO SỰ NGHIỆP TOÀN CẦU</h2>
+            </div>
+            <div class="item__40">
+                <div class="uk-child-width-1-4@m uk-child-width-1-2" uk-grid>
+                    <div>
+                        <div class="home__section5__bg uk-text-center uk-background-norepeat uk-background-contain" data-src="images/bg1.png" uk-img>
+                            <div class="home__section5__coverImg uk-cover-container uk-border-circle uk-display-inline-block">
+                                <img src="images/1x/user1.png" alt="" uk-cover="">
+                                <canvas width="145" height="145"></canvas>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <div class="item__10">
+                                <div class="uk-text-uppercase"><span class="home__section5__txt1">Anh.</span> <span class="home__section5__name">Nguyễn Thành Trung</span></div>
+                                <div class="home__section5__txt2">Cựu Sinh viên ĐH FPT</div>
+                            </div>
+                            <div class="item__10">
+                                <div class="home__section5__chucvu">Tỷ phú đô la công nghệ đầu tiên tại Việt Nam năm 29 tuổi</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="home__section5__bg uk-text-center uk-background-norepeat uk-background-contain" data-src="images/bg1.png" uk-img>
+                            <div class="home__section5__coverImg uk-cover-container uk-border-circle uk-display-inline-block">
+                                <img src="images/1x/user2.png" alt="" uk-cover="">
+                                <canvas width="145" height="145"></canvas>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <div class="item__10">
+                                <div class="uk-text-uppercase"><span class="home__section5__txt1">Anh.</span> <span class="home__section5__name">Đỗ Tiến Hưng </span></div>
+                                <div class="home__section5__txt2">Cựu Sinh viên ĐH FPT</div>
+                            </div>
+                            <div class="item__10">
+                                <div class="home__section5__chucvu">CEO công ty phần mềm GVN Technology.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="home__section5__bg uk-text-center uk-background-norepeat uk-background-contain" data-src="images/bg1.png" uk-img>
+                            <div class="home__section5__coverImg uk-cover-container uk-border-circle uk-display-inline-block">
+                                <img src="images/1x/user3.png" alt="" uk-cover="">
+                                <canvas width="145" height="145"></canvas>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <div class="item__10">
+                                <div class="uk-text-uppercase"><span class="home__section5__txt1">CHỊ.</span> <span class="home__section5__name">Thái Ngọc Diễm Phương</span></div>
+                                <div class="home__section5__txt2">Cựu Sinh viên ĐH FPT</div>
+                            </div>
+                            <div class="item__10">
+                                <div class="home__section5__chucvu">Software Engineer tại Google Earth Outreach và Google Earth Engine</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="home__section5__bg uk-text-center uk-background-norepeat uk-background-contain" data-src="images/bg1.png" uk-img>
+                            <div class="home__section5__coverImg uk-cover-container uk-border-circle uk-display-inline-block">
+                                <img src="images/1x/user4.png" alt="" uk-cover="">
+                                <canvas width="145" height="145"></canvas>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <div class="item__10">
+                                <div class="uk-text-uppercase"><span class="home__section5__txt1">Anh.</span> <span class="home__section5__name">Dương Thanh Long</span></div>
+                                <div class="home__section5__txt2">Cựu Sinh viên ĐH FPT</div>
+                            </div>
+                            <div class="item__10">
+                                <div class="home__section5__chucvu">Học bổng thạc sĩ Erasmus Mundus của Liên minh Châu Âu</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/HỌC ĐẠI HỌC FPT – SẴN SÀNG CHO SỰ NGHIỆP TOÀN CẦU-->
+    <!---->
+    <div class="home__section6">
+        <div class="uk-container">
+            <div class="uk-grid-match uk-flex-middle" uk-grid>
+                <div class="uk-width-expand">
+                    <div class="home__section6__box1 uk-light uk-section-small uk-background-image@m uk-text-center uk-background-norepeat uk-background-bottom-center" data-src="images/1x/bg2.png" uk-img>
+                        <div class="item__15">
+                            <div class="uk-flex-center" uk-grid>
+                                <div class="uk-width-4-5@m">
+                                    <img src="images/dhfpt_xethocbanganhhot.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item__15 home__section6__box1__txt1">
+                            Xét tuyển học bạ lớp 11 <br class="uk-visible@m">
+                            và học kỳ 1 lớp 12
+                        </div>
+
+                        <div class="item__15 home__section6__box1__txt2">
+                            Nộp hồ sơ online qua email, facebook, zalo… <br class="uk-visible@m">
+
+                            Hỗ trợ thí sinh 24/7, mọi lúc mọi nơi
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-1-3@m">
+                    <div class="uk-section-small">
+                        <div class="home__section6__card uk-card uk-card-body uk-card-default">
+                            <form>
+                                <fieldset class="uk-fieldset">
+
+                                    <legend class="uk-legend uk-text-center home__section6__card__title">ĐĂNG KÝ TƯ VẤN</legend>
+
+                                    <div class="uk-margin-small">
+                                        <input class="uk-input home__section6__card__input" type="text" placeholder="Họ và tên">
+                                    </div>
+                                    <div class="uk-margin-small">
+                                        <input class="uk-input home__section6__card__input" type="text" placeholder="Điện thoại">
+                                    </div>
+                                    <div class="uk-margin-small">
+                                        <input class="uk-input home__section6__card__input" type="text" placeholder="Tên trường THPT">
+                                    </div>
+                                    <div class="uk-margin-small">
+                                        <input class="uk-input home__section6__card__input" type="text" placeholder="Link facebook (nếu có)">
+                                    </div>
+                                    <div class="uk-margin-small">
+                                        <label class="uk-form-label home__section6__card__label" for="form-stacked-text">Đăng ký:</label>
+                                        <div class="uk-form-controls">
+                                            <div class="uk-grid-small uk-child-width-auto uk-grid">
+                                                <label class="home__section6__card__label"><input class="uk-radio" type="radio" name="radio2" checked> Xét học bạ</label>
+                                                <label class="home__section6__card__label"><input class="uk-radio" type="radio" name="radio2"> Học bổng </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="uk-margin-small-top uk-text-center">
+                                        <button class="uk-button uk-button-default uk-border-pill home__section6__card__btnSubmit"><span>ĐĂNG KÝ</span></button>
+                                    </div>
+
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/-->
+    <div class="footer uk-section-xsmall">
+        <div class="uk-container uk-container-small">
+            <div class="uk-flex-middle uk-child-width-auto uk-flex-between uk-grid-5" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom-small; target: > div; delay: 300; repeat: false">
+                <div>
+                    <div class="uk-flex-middle uk-grid-5 uk-grid-10-m" uk-grid>
+                        <div class="uk-width-auto">
+                            <a href="" class="uk-icon-button footer__icon" uk-icon="icon: mail; ratio: 0.9"></a>
+                        </div>
+                        <div class="uk-width-expand">
+                            <span class="footer__txt">daihocfpt@fpt.edu.vn</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a href="" class="uk-button footer__btn uk-button-default uk-button-large uk-border-pill">
+                        <div class="uk-flex-middle uk-grid-5 uk-grid-10-m" uk-grid>
+                            <div class="uk-width-auto">
+                                <span class="uk-icon-button footer__icon" uk-icon="icon: receiver; ratio: 0.9"></span>
+                            </div>
+                            <div class="uk-width-expand">
+                                <span class="footer__txt">024/028 73001866</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <div class="uk-flex-middle uk-grid-5 uk-grid-10-m" uk-grid>
+                        <div class="uk-width-auto">
+                            <a href="" class="uk-icon-button footer__icon" uk-icon="icon: facebook; ratio: 0.9"></a>
+                        </div>
+                        <div class="uk-width-expand">
+                            <span class="footer__txt">FPT University</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/app-->
 </body>
 </html>
