@@ -1,7 +1,74 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php $body = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
-
+<div class="uk-section-large home__section2">
+    <div class="uk-container">
+        <div class="item__80">
+            <div class="uk-flex-center uk-flex-middle uk-child-width-auto" uk-grid>
+                <div>
+                    <div class="uk-cover-container uk-border-circle home__section2__box">
+                        <canvas width="239" height="239"></canvas>
+                        <div class="uk-position-center uk-text-center">
+                            <div class="home__section2__box__txt1">100%</div>
+                            <div class="home__section2__box__txt2">Cơ hội</div>
+                            <div class="home__section2__box__txt2">thực chiến tại</div>
+                            <div class="home__section2__box__txt2"><span>DOANH NGHIỆP</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-cover-container uk-border-circle home__section2__box">
+                        <canvas width="239" height="239"></canvas>
+                        <div class="uk-position-center uk-text-center">
+                            <div class="home__section2__box__txt1">100%</div>
+                            <div class="home__section2__box__txt2">Cơ hội</div>
+                            <div class="home__section2__box__txt2">trải nghiệm thực tập</div>
+                            <div class="home__section2__box__txt2">tại <span>NƯỚC NGOÀI</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-cover-container uk-border-circle home__section2__box">
+                        <canvas width="239" height="239"></canvas>
+                        <div class="uk-position-center uk-text-center">
+                            <div class="home__section2__box__txt1">100%</div>
+                            <div class="home__section2__box__txt2">Cơ hội</div>
+                            <div class="home__section2__box__txt2"><span>đào tạo TIẾNG ANH</span></div>
+                            <div class="home__section2__box__txt2">NGAY TỪ ĐẦU</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item__80">
+            <div class="uk-margin">
+                <h2 class="home__title1 uk-h2 uk-text-uppercase uk-text-center">TẠI SAO LỚP 12 NÊN CHỌN XÉT TUYỂN HỌC BẠ?</h2>
+            </div>
+            <div class="uk-margin">
+                <div class="uk-position-relative">
+                    <img src="images/1x/bg22.png" alt="">
+                    <div class="uk-card uk-card-body" uk-toggle="cls: uk-position-cover; mode: media; media: @m">
+                        <div uk-grid>
+                            <div class="uk-width-1-3@m">
+                                <ul class="uk-list home__section2__list">
+                                    <li><span class="home__section2__txt">Nắm chắc cơ hội vào đại học</span></li>
+                                    <li><span class="home__section2__txt">Đá bay áp lực kỳ thi THPT Quốc gia</span></li>
+                                    <li><span class="home__section2__txt">Chọn ngành hot, lương cao,
+                                        việc làm toàn cầu
+                                        ngay từ khi còn lớp 12</span>
+                                    </li>
+                                    <li>
+                                        <a href="" class="home__section2__btn uk-border-pill uk-button uk-button-default uk-button-small"><span>Đăng ký tư vấn ngay</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!--HỌC NGÀNH GÌ TẠI ĐẠI HỌC FPT?-->
 <div class="home__section3 uk-section uk-light">
     <div class="uk-container">
