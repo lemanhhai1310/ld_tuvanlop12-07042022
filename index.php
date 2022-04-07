@@ -1,7 +1,7 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php $body = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
-<div class="uk-position-top uk-position-z-index header">
+<div class="uk-position-top uk-position-z-index header" uk-sticky>
     <div class="uk-container uk-padding-remove">
         <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
 
@@ -237,7 +237,7 @@
 <!--LÀ SINH VIÊN ĐẠI HỌC FPT,BẠN ĐƯỢC GÌ?-->
 <div class="home__section4">
     <div class="uk-container">
-        <div class="uk-section uk-background-norepeat uk-background-top-right uk-background-image@m" data-src="images/1x/bg4.png" uk-img>
+        <div class="uk-section-large uk-background-norepeat uk-background-top-right uk-background-image@m" data-src="images/1x/bg4.png" uk-img>
             <div uk-grid>
                 <div class="uk-width-2-5@m">
                     <h2 class="home__title1 uk-h2 uk-text-uppercase">LÀ SINH VIÊN ĐẠI HỌC FPT, <br class="uk-visible@m"> BẠN ĐƯỢC GÌ?</h2>

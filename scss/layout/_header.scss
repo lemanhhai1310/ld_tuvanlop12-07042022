@@ -11,4 +11,21 @@
       }
     }
   }
+  & + .uk-sticky-placeholder{
+    height: 0px !important;
+  }
+  &.uk-active{
+    position: fixed !important;
+    background-color: #fff;
+    .uk-navbar-nav{
+      >li{
+        >a{
+          color: #000000;
+        }
+      }
+    }
+  }
+  &.uk-sticky-below{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
 }
