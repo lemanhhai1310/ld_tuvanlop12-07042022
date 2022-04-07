@@ -6,7 +6,7 @@
         <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
 
             <div class="uk-navbar-left">
-                <a class="uk-navbar-toggle uk-hidden@m" href="#">
+                <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-flip-menu" uk-toggle>
                     <span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span>
                 </a>
                 <a href="" class="uk-navbar-item uk-logo uk-background-default uk-visible@m"><img src="images/1x/logo.png" alt=""></a>
