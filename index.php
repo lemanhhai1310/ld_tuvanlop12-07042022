@@ -1,10 +1,120 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php $body = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
-<!--LÀ SINH VIÊN ĐẠI HỌC FPT,BẠN ĐƯỢC GÌ?-->
-<div class="uk-section home__section4">
-    <div class="uk-container">
 
+<!--HỌC NGÀNH GÌ TẠI ĐẠI HỌC FPT?-->
+<div class="home__section3 uk-section uk-light">
+    <div class="uk-container">
+        <div class="uk-margin">
+            <h2 class="home__title1 uk-h2 uk-text-uppercase uk-text-center">HỌC NGÀNH GÌ TẠI ĐẠI HỌC FPT?</h2>
+        </div>
+        <div class="uk-margin">
+            <div class="uk-grid-match uk-grid-10 uk-child-width-1-3@m" uk-grid>
+                <div>
+                    <div class="home__section3__card uk-card uk-flex uk-flex-column uk-card-default">
+                        <div class="home__section3__card__header uk-card-header uk-text-center">
+                            <div>CÔNG NGHỆ THÔNG TIN</div>
+                        </div>
+                        <div class="home__section3__card__body uk-card-body uk-flex-auto">
+                            <div class="uk-grid-small" uk-grid>
+                                <div class="uk-width-auto">
+                                    <div class="home__section3__card__body__box home__section3__card__body__box--cntt uk-cover-container uk-border-rounded">
+                                        <canvas width="88" height="88"></canvas>
+                                    </div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <ul class="uk-list home__section3__card__body__list uk-list-circle">
+                                        <li>Kỹ thuật phần mềm</li>
+                                        <li>Hệ thống thông tin</li>
+                                        <li>Trí tuệ nhân tạo</li>
+                                        <li>An toàn thông tin</li>
+                                        <li>Thiết kế Mỹ thuật số</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="home__section3__card uk-card uk-flex uk-flex-column uk-card-default">
+                        <div class="home__section3__card__header uk-card-header uk-text-center">
+                            <div>Quản trị kinh doanh</div>
+                        </div>
+                        <div class="home__section3__card__body uk-card-body uk-flex-auto">
+                            <div class="uk-grid-small" uk-grid>
+                                <div class="uk-width-auto">
+                                    <div class="home__section3__card__body__box home__section3__card__body__box--qtkd uk-cover-container uk-border-rounded">
+                                        <canvas width="88" height="88"></canvas>
+                                    </div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <ul class="uk-list home__section3__card__body__list uk-list-circle">
+                                        <li>Digital Marketing</li>
+                                        <li>Kinh doanh quốc tế</li>
+                                        <li>Quản trị khách sạn</li>
+                                        <li>QT truyền thông đa phương tiện</li>
+                                        <li>Tài chính</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="home__section3__card uk-card uk-flex uk-flex-column uk-card-default">
+                        <div class="home__section3__card__header uk-card-header uk-text-center">
+                            <div>Ngôn Ngữ</div>
+                        </div>
+                        <div class="home__section3__card__body uk-card-body uk-flex-auto">
+                            <div class="uk-grid-small" uk-grid>
+                                <div class="uk-width-auto">
+                                    <div class="home__section3__card__body__box home__section3__card__body__box--ngonngu uk-cover-container uk-border-rounded">
+                                        <canvas width="88" height="88"></canvas>
+                                    </div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <ul class="uk-list home__section3__card__body__list uk-list-circle">
+                                        <li>Ngôn ngữ Anh</li>
+                                        <li>Ngôn ngữ Nhật</li>
+                                        <li>Ngôn ngữ Hàn Quốc</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/HỌC NGÀNH GÌ TẠI ĐẠI HỌC FPT?-->
+
+<!--LÀ SINH VIÊN ĐẠI HỌC FPT,BẠN ĐƯỢC GÌ?-->
+<div class="home__section4">
+    <div class="uk-container">
+        <div class="uk-section uk-background-norepeat uk-background-top-right uk-background-image@m" data-src="images/1x/bg4.png" uk-img>
+            <div uk-grid>
+                <div class="uk-width-2-5@m">
+                    <h2 class="home__title1 uk-h2 uk-text-uppercase">LÀ SINH VIÊN ĐẠI HỌC FPT, <br class="uk-visible@m"> BẠN ĐƯỢC GÌ?</h2>
+                    <div class="uk-margin uk-border-rounded uk-padding-small home__section4__box1">
+                        <div class="home__section4__txt1">ĐƯỢC ĐÀO TẠO TRONG DOANH NGHIỆP</div>
+                        <div class="home__section4__txt2">100% sinh viên làm việc trực tiếp tại doanh nghiệp từ năm 3</div>
+                    </div>
+                    <div class="uk-margin uk-border-rounded uk-padding-small home__section4__box1">
+                        <div class="home__section4__txt1">TRẢI NGHIỆM MÔI TRƯỜNG CHUẨN QUỐC TẾ</div>
+                        <div class="home__section4__txt2">Sinh viên được sử dụng giáo trình bản quyền quốc tế.Trở thành công dân toàn cầu.</div>
+                    </div>
+                    <div class="uk-margin uk-border-rounded uk-padding-small home__section4__box1">
+                        <div class="home__section4__txt1">TRẢI NGHIỆM THÀNH CÔNG</div>
+                        <div class="home__section4__txt2">Sinh viên được tạo cơ hội tham gia nhiều cuộc thi chuyên môn, hoạt động khởi nghiệp để tích lũy kiến thức, kỹ năng.</div>
+                    </div>
+                    <div class="uk-margin uk-border-rounded uk-padding-small home__section4__box1">
+                        <div class="home__section4__txt1">TRẢI NGHIỆM TIỆN NGHI CƠ SỞ VẬT CHẤT HIỆN ĐẠI</div>
+                        <div class="home__section4__txt2">Sinh viên học tập với trang thiết bị hiện đại. Campus xanh, sạch, đẹp với nhiều tiện ích phục vụ tối đa nhu cầu của sinh viên.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <!--/LÀ SINH VIÊN ĐẠI HỌC FPT,BẠN ĐƯỢC GÌ?-->
