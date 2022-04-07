@@ -1,0 +1,14 @@
+.header{
+  .uk-logo{
+    $x:16px;
+    border-radius: 0 0 #{$x} #{$x};
+  }
+  .uk-navbar-nav{
+    >li{
+      >a{
+        color: #ffffff;
+        @extend .fz-16;
+      }
+    }
+  }
+}

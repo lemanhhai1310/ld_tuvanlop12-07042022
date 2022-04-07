@@ -1,6 +1,30 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php $body = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
+<div class="uk-position-top uk-position-z-index header">
+    <div class="uk-container uk-padding-remove">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+
+            <div class="uk-navbar-left">
+                <a href="" class="uk-navbar-item uk-logo uk-background-default"><img src="images/1x/logo.png" alt=""></a>
+            </div>
+
+            <div class="uk-navbar-right">
+
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="#">TRANG CHỦ</a></li>
+                    <li><a href="#">TẠI SAO CHỌN ĐH FPT?</a></li>
+                    <li><a href="#">THÔNG BÁO TUYỂN SINH</a></li>
+                    <li><a href="#">CHUYÊN NGÀNH ĐÀO TẠO</a></li>
+                    <li><a href="#">ĐĂNG KÝ HỌC</a></li>
+                    <li><a href="#">ĐĂNG NHẬP</a></li>
+                </ul>
+
+            </div>
+
+        </nav>
+    </div>
+</div>
 <div class="uk-height-viewport uk-flex uk-flex-middle uk-overflow-hidden uk-position-relative">
     <div class="home__section1__bg1 uk-position-cover uk-background-norepeat uk-background-bottom-center" data-src="images/1x/bg1.png" uk-img></div>
     <div class="home__section1__bg2 uk-position-cover uk-background-image@m">
@@ -37,19 +61,10 @@
                                     <input class="uk-input home__section6__card__input" type="text" placeholder="Điện thoại">
                                 </div>
                                 <div class="uk-margin-small">
-                                    <input class="uk-input home__section6__card__input" type="text" placeholder="Tên trường THPT">
+                                    <input class="uk-input home__section6__card__input" type="text" placeholder="Email">
                                 </div>
                                 <div class="uk-margin-small">
-                                    <input class="uk-input home__section6__card__input" type="text" placeholder="Link facebook (nếu có)">
-                                </div>
-                                <div class="uk-margin-small">
-                                    <label class="uk-form-label home__section6__card__label" for="form-stacked-text">Đăng ký:</label>
-                                    <div class="uk-form-controls">
-                                        <div class="uk-grid-small uk-child-width-auto uk-grid">
-                                            <label class="home__section6__card__label"><input class="uk-radio" type="radio" name="radio2" checked> Xét học bạ</label>
-                                            <label class="home__section6__card__label"><input class="uk-radio" type="radio" name="radio2"> Học bổng </label>
-                                        </div>
-                                    </div>
+                                    <input class="uk-input home__section6__card__input" type="text" placeholder="Tỉnh / Thành phố">
                                 </div>
 
                                 <div class="uk-margin-small-top uk-text-center">
