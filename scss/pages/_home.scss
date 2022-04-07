@@ -1,0 +1,50 @@
+.home{
+  &__title1{
+    font-family: $font-BeVietnamPro-Black;
+    @extend .fz-30;
+    color: #E17126;
+    line-height: (38/30);
+  }
+  &__section5{
+    &__txt1{
+      color: #E17126;
+      @extend .fz-12;
+      font-family: $font-BeVietnamPro-SemiBold;
+    }
+    &__txt2{
+      color: #E17126;
+      @extend .fz-16;
+      font-family: $font-Roboto;
+    }
+    &__name{
+      color: #E17126;
+      @extend .fz-18;
+      font-family: $font-BeVietnamPro-SemiBold;
+    }
+    &__chucvu{
+      color: #000;
+      @extend .fz-16;
+      font-family: $font-Roboto;
+    }
+    &__bg{
+      padding: 30px 0;
+    }
+    &__coverImg{
+      border: 9px solid #E17126;
+      box-sizing: content-box;
+      $x:25px;
+      margin-left: #{$x};
+      margin-right: #{$x};
+      @include media-breakpoint-up('xs'){
+        $x:30px;
+        margin-left: #{$x};
+        margin-right: #{$x};
+      }
+      @include media-breakpoint-up('s'){
+        $x:40px;
+        margin-left: #{$x};
+        margin-right: #{$x};
+      }
+    }
+  }
+}
