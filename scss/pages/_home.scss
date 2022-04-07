@@ -72,6 +72,30 @@
   }
   &__section3{
     background: #E96A03;
+    position: relative;
+    &:before,&:after{
+      content: "";
+      left: 0;
+      right: 0;
+      position: absolute;
+      width: 100%;
+      $x:20px;
+      height: #{$x};
+      @include media-breakpoint-up('m'){
+        $x:100px;
+        height: #{$x};
+      }
+      background: #E96A03;
+      display: block;
+    }
+    &:before{
+      bottom: 100%;
+      clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    }
+    &:after{
+      top: 100%;
+      clip-path: polygon(0 0, 0 100%, 100% 0);
+    }
     &__card{
       $x:16px;
       border-radius: #{$x};

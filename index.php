@@ -34,9 +34,7 @@
 </div>
 <div id="home" class="uk-height-viewport uk-flex uk-flex-middle uk-overflow-hidden uk-position-relative">
     <div class="home__section1__bg1 uk-position-cover uk-background-norepeat uk-background-bottom-center" data-src="images/1x/bg1.png" uk-img></div>
-    <div class="home__section1__bg2 uk-position-cover uk-background-image@m">
-
-    </div>
+    <div class="home__section1__bg2 uk-position-cover uk-background-image@m"></div>
     <div class="uk-position-bottom-center">
         <img uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true" src="images/1x/img1.png" alt="">
     </div>
@@ -246,7 +244,7 @@
     <div class="uk-container">
         <div class="uk-section-large uk-background-norepeat uk-background-top-right uk-background-image@m" data-src="images/1x/bg4.png" uk-img>
             <div uk-grid>
-                <div class="uk-width-2-5@m">
+                <div class="uk-width-2-5@m" uk-scrollspy="target: .home__section4__box1; cls: uk-animation-slide-bottom-small; delay: 500; repeat: true">
                     <h2 class="home__title1 uk-h2 uk-text-uppercase">LÀ SINH VIÊN ĐẠI HỌC FPT, <br class="uk-visible@m"> BẠN ĐƯỢC GÌ?</h2>
                     <div class="uk-margin uk-border-rounded uk-padding-small home__section4__box1">
                         <div class="home__section4__txt1">ĐƯỢC ĐÀO TẠO TRONG DOANH NGHIỆP</div>
