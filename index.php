@@ -36,7 +36,9 @@
     <div class="home__section1__bg1 uk-position-cover uk-background-norepeat uk-background-bottom-center" data-src="images/1x/bg1.png" uk-img></div>
     <div class="home__section1__bg2 uk-position-cover uk-background-image@m"></div>
     <div class="uk-position-bottom-center">
-        <img uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true" src="images/1x/img1.png" alt="">
+        <div class="uk-container">
+            <img uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true" src="images/1x/img1.png" alt="">
+        </div>
     </div>
     <div class="home__section1__content uk-section-large uk-width-1-1 uk-position-relative">
         <div class="uk-container">

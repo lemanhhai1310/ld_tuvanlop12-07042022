@@ -9,6 +9,7 @@
     &__content{
       @include media-breakpoint-down('xs'){
         padding-top: 90px;
+        padding-bottom: 400px;
       }
     }
     &__txt1{
