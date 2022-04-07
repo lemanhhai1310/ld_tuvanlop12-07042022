@@ -1,6 +1,69 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php $body = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
+<div class="uk-height-viewport uk-flex uk-flex-middle uk-overflow-hidden uk-position-relative">
+    <div class="home__section1__bg1 uk-position-cover uk-background-norepeat uk-background-bottom-center" data-src="images/1x/bg1.png" uk-img></div>
+    <div class="home__section1__bg2 uk-position-cover uk-background-image@m">
+
+    </div>
+    <div class="uk-position-bottom-center">
+        <img uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true" src="images/1x/img1.png" alt="">
+    </div>
+    <div class="uk-section-large uk-width-1-1 uk-position-relative">
+        <div class="uk-container">
+            <div uk-grid>
+                <div class="uk-width-1-3@m">
+                    <div class="home__section1__txt1">
+                        TƯ VẤN LỚP 12 <br class="uk-visible@m">
+                        THÔNG TIN TUYỂN SINH <br class="uk-visible@m">
+                        & HỌC BỔNG <br class="uk-visible@m">
+                        ĐẠI HỌC FPT 2022
+                    </div>
+                </div>
+                <div class="uk-width-expand">
+
+                </div>
+                <div class="uk-width-1-3@m">
+                    <div class="home__section6__card uk-card uk-card-body uk-card-default">
+                        <form>
+                            <fieldset class="uk-fieldset">
+
+                                <legend class="uk-legend uk-text-center home__section6__card__title">ĐĂNG KÝ TƯ VẤN</legend>
+
+                                <div class="uk-margin-small">
+                                    <input class="uk-input home__section6__card__input" type="text" placeholder="Họ và tên">
+                                </div>
+                                <div class="uk-margin-small">
+                                    <input class="uk-input home__section6__card__input" type="text" placeholder="Điện thoại">
+                                </div>
+                                <div class="uk-margin-small">
+                                    <input class="uk-input home__section6__card__input" type="text" placeholder="Tên trường THPT">
+                                </div>
+                                <div class="uk-margin-small">
+                                    <input class="uk-input home__section6__card__input" type="text" placeholder="Link facebook (nếu có)">
+                                </div>
+                                <div class="uk-margin-small">
+                                    <label class="uk-form-label home__section6__card__label" for="form-stacked-text">Đăng ký:</label>
+                                    <div class="uk-form-controls">
+                                        <div class="uk-grid-small uk-child-width-auto uk-grid">
+                                            <label class="home__section6__card__label"><input class="uk-radio" type="radio" name="radio2" checked> Xét học bạ</label>
+                                            <label class="home__section6__card__label"><input class="uk-radio" type="radio" name="radio2"> Học bổng </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="uk-margin-small-top uk-text-center">
+                                    <button class="uk-button uk-button-default uk-border-pill home__section6__card__btnSubmit"><span>ĐĂNG KÝ</span></button>
+                                </div>
+
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="uk-section-large home__section2">
     <div class="uk-container">
         <div class="item__80">
