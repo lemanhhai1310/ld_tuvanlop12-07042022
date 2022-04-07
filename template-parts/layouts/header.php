@@ -28,37 +28,13 @@
     <div id="offcanvas-flip-menu" class="menuMobile" uk-offcanvas="flip: true; overlay: true">
         <div class="uk-offcanvas-bar menuMobile__bar">
             <button class="uk-offcanvas-close menuMobile__close" type="button" uk-close></button>
-            <ul class="menuMobile__nav uk-nav-default uk-nav-parent-icon uk-nav-divider" uk-nav="multiple: true;toggle: .menuMobile__nav__icon">
-                <li class="uk-active"><a href="#">Kinh Doanh</a></li>
-                <li><a href="">Đời Sống</a></li>
-                <li class="uk-parent">
-                    <a href="#">Du Lịch</a>
-                    <span class="menuMobile__nav__icon"></span>
-                    <ul class="uk-nav-sub">
-                        <li><a href="#">Đại học</a></li>
-                        <li><a href="#">Cao học</a></li>
-                        <li><a href="#">Nghiên cứu sinh</a></li>
-                        <li><a href="#">Vừa làm vừa học</a></li>
-                        <li>
-                            <a href="#">Văn bằng 2</a>
-                            <ul>
-                                <li><a href="#">Kế hoạch đấu thầu</a></li>
-                                <li><a href="#">Thông báo mời thầu</a></li>
-                                <li><a href="#">Kết quả lựa chọn nhà thầu</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="">Sáng Tạo</a></li>
-                <li><a href="">Trải Nghiệm</a></li>
-                <li><a href="">Video</a></li>
-                <li><a href="">Podcast</a></li>
-                <li><a href="">Cafe Vietogether</a></li>
-                <li><a href="tatcachude.php">Tất Cả Chủ Đề</a></li>
-                <li><a href="">Vietogether Store</a></li>
-                <li><a href="cohoivieclam.php">Cơ Hội Nghề Nghiệp</a></li>
-                <li><a href="gioithieu.php">Về Vietogether</a></li>
-                <li><a href="lienhe.php">Liên Hệ</a></li>
+            <ul class="menuMobile__nav uk-nav-default uk-nav-parent-icon uk-nav-divider" uk-nav="multiple: true;toggle: .menuMobile__nav__icon" uk-scrollspy-nav="closest: li; scroll: true; offset: 80">
+                <li><a href="#home">TRANG CHỦ</a></li>
+                <li><a href="#taisao">TẠI SAO CHỌN ĐH FPT?</a></li>
+                <li><a href="#">THÔNG BÁO TUYỂN SINH</a></li>
+                <li><a href="#chuyennganh">CHUYÊN NGÀNH ĐÀO TẠO</a></li>
+                <li><a href="#">ĐĂNG KÝ HỌC</a></li>
+                <li><a href="#">ĐĂNG NHẬP</a></li>
             </ul>
         </div>
     </div>

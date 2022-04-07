@@ -6,6 +6,11 @@
     line-height: (38/30);
   }
   &__section1{
+    &__content{
+      @include media-breakpoint-down('xs'){
+        padding-top: 90px;
+      }
+    }
     &__txt1{
       @extend .fz-36;
       font-family: $font-BeVietnamPro-Black;

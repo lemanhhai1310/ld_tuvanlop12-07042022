@@ -89,9 +89,14 @@
       >a{
         font-family: $font-BeVietnamPro-SemiBold;
         letter-spacing: 0.05em;
-        color: #23304C !important;
+        color: #999 !important;
         @extend .fz-15;
         padding: 10px 0;
+      }
+      &.uk-active{
+        >a{
+          color: #333333 !important;
+        }
       }
     }
   }

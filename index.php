@@ -18,11 +18,11 @@
 
             <div class="uk-navbar-right">
 
-                <ul class="uk-navbar-nav uk-visible@m">
-                    <li class="uk-active"><a href="#">TRANG CHỦ</a></li>
-                    <li><a href="#">TẠI SAO CHỌN ĐH FPT?</a></li>
+                <ul class="uk-navbar-nav uk-visible@m" uk-scrollspy-nav="closest: li; scroll: true; offset: 80">
+                    <li><a href="#home">TRANG CHỦ</a></li>
+                    <li><a href="#taisao">TẠI SAO CHỌN ĐH FPT?</a></li>
                     <li><a href="#">THÔNG BÁO TUYỂN SINH</a></li>
-                    <li><a href="#">CHUYÊN NGÀNH ĐÀO TẠO</a></li>
+                    <li><a href="#chuyennganh">CHUYÊN NGÀNH ĐÀO TẠO</a></li>
                     <li><a href="#">ĐĂNG KÝ HỌC</a></li>
                     <li><a href="#">ĐĂNG NHẬP</a></li>
                 </ul>
@@ -32,7 +32,7 @@
         </nav>
     </div>
 </div>
-<div class="uk-height-viewport uk-flex uk-flex-middle uk-overflow-hidden uk-position-relative">
+<div id="home" class="uk-height-viewport uk-flex uk-flex-middle uk-overflow-hidden uk-position-relative">
     <div class="home__section1__bg1 uk-position-cover uk-background-norepeat uk-background-bottom-center" data-src="images/1x/bg1.png" uk-img></div>
     <div class="home__section1__bg2 uk-position-cover uk-background-image@m">
 
@@ -40,7 +40,7 @@
     <div class="uk-position-bottom-center">
         <img uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true" src="images/1x/img1.png" alt="">
     </div>
-    <div class="uk-section-large uk-width-1-1 uk-position-relative">
+    <div class="home__section1__content uk-section-large uk-width-1-1 uk-position-relative">
         <div class="uk-container">
             <div uk-grid>
                 <div class="uk-width-1-3@m">
@@ -51,7 +51,7 @@
                         ĐẠI HỌC FPT 2022
                     </div>
                 </div>
-                <div class="uk-width-expand">
+                <div class="uk-width-expand uk-visible@m">
 
                 </div>
                 <div class="uk-width-1-3@m">
@@ -125,7 +125,7 @@
                 </div>
             </div>
         </div>
-        <div class="item__80">
+        <div class="item__80" id="taisao">
             <div class="uk-margin">
                 <h2 class="home__title1 uk-h2 uk-text-uppercase uk-text-center">TẠI SAO LỚP 12 NÊN CHỌN XÉT TUYỂN HỌC BẠ?</h2>
             </div>
@@ -155,7 +155,7 @@
     </div>
 </div>
 <!--HỌC NGÀNH GÌ TẠI ĐẠI HỌC FPT?-->
-<div class="home__section3 uk-section uk-light">
+<div id="chuyennganh" class="home__section3 uk-section uk-light">
     <div class="uk-container">
         <div class="uk-margin">
             <h2 class="home__title1 uk-h2 uk-text-uppercase uk-text-center">HỌC NGÀNH GÌ TẠI ĐẠI HỌC FPT?</h2>
