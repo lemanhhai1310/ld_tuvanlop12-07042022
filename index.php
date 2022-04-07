@@ -6,12 +6,19 @@
         <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
 
             <div class="uk-navbar-left">
-                <a href="" class="uk-navbar-item uk-logo uk-background-default"><img src="images/1x/logo.png" alt=""></a>
+                <a class="uk-navbar-toggle uk-hidden@m" href="#">
+                    <span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span>
+                </a>
+                <a href="" class="uk-navbar-item uk-logo uk-background-default uk-visible@m"><img src="images/1x/logo.png" alt=""></a>
+            </div>
+
+            <div class="uk-navbar-center">
+                <a href="" class="uk-navbar-item uk-logo uk-background-default uk-hidden@m"><img src="images/1x/logo.png" alt=""></a>
             </div>
 
             <div class="uk-navbar-right">
 
-                <ul class="uk-navbar-nav">
+                <ul class="uk-navbar-nav uk-visible@m">
                     <li class="uk-active"><a href="#">TRANG CHỦ</a></li>
                     <li><a href="#">TẠI SAO CHỌN ĐH FPT?</a></li>
                     <li><a href="#">THÔNG BÁO TUYỂN SINH</a></li>

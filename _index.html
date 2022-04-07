@@ -3,20 +3,23 @@
 <head>
     <script src="/__prepros.js"></script>
     <meta charset="UTF-8">
-    <title>BASE - Trang chủ</title>
+    <title>TƯ VẤN LỚP 12
+        THÔNG TIN TUYỂN SINH
+        & HỌC BỔNG
+        ĐẠI HỌC FPT 2022  - Trang chủ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <!--CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.13.7/dist/css/uikit.min.css" />
-    <link rel="stylesheet" href="style.css?v=1649337701">
+    <link rel="stylesheet" href="style.css?v=1649345064">
     <!--JS-->
     <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js/dist/defer_plus.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.7/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.7/dist/js/uikit-icons.min.js"></script>
-    <script src="js/app.js?v=1649337701"></script>
+    <script src="js/app.js?v=1649345064"></script>
 </head>
 <body class="">
 <!-- Load Facebook SDK for JavaScript -->
@@ -51,12 +54,19 @@
         <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
 
             <div class="uk-navbar-left">
-                <a href="" class="uk-navbar-item uk-logo uk-background-default"><img src="images/1x/logo.png" alt=""></a>
+                <a class="uk-navbar-toggle uk-hidden@m" href="#">
+                    <span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span>
+                </a>
+                <a href="" class="uk-navbar-item uk-logo uk-background-default uk-visible@m"><img src="images/1x/logo.png" alt=""></a>
+            </div>
+
+            <div class="uk-navbar-center">
+                <a href="" class="uk-navbar-item uk-logo uk-background-default uk-hidden@m"><img src="images/1x/logo.png" alt=""></a>
             </div>
 
             <div class="uk-navbar-right">
 
-                <ul class="uk-navbar-nav">
+                <ul class="uk-navbar-nav uk-visible@m">
                     <li class="uk-active"><a href="#">TRANG CHỦ</a></li>
                     <li><a href="#">TẠI SAO CHỌN ĐH FPT?</a></li>
                     <li><a href="#">THÔNG BÁO TUYỂN SINH</a></li>
